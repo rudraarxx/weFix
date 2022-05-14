@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="mt-4 text-center">
+        <form [formGroup] = "signinForm">
+            <input class="mt-4 w-50" type="text" placeholder="Your Email" formControlName="email"><br>
+            <input class="mt-4 w-50" type="password" placeholder="Password" formControlName="password"><br>
+            <button class="btn btn-primary rounded-pill my-4" (click)="onSubmit()">Sign in</button><br>
+            <p>By clicking 'Sign in' I agree to WeFix <a class="text-primary text-decoration-underline">Term of Service</a></p>
+        </form>
+    </div>
+   
+</div>
